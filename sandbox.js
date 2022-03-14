@@ -8,7 +8,4 @@ inputs.forEach(function (input) {
 // after the compiling, it doesn't seems to different,
 // but the use of the typescript is to check error
 // before compile, to reduce error.
-const circ = (diameter) => {
-    return diameter * Math.PI;
-}
-console.log(circ(5));
+
