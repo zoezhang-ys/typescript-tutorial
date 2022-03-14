@@ -1,0 +1,8 @@
+To use ts in browser, we need to compile the TypeScript into JavaScript, using:
+
+tsc origin.ts after.js
+
+
+To automate the compile:
+
+tsc origin.ts after.js -w
