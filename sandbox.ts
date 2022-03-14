@@ -2,6 +2,7 @@
 let names = ['luigi', 'mario', 'yoshi'];
 
 names.push('toad');
+// == array only allows 1 type ==
 // names.push(3);
 // names[1] = 3;
 
@@ -18,6 +19,7 @@ mixed.push(10);
 mixed[0] = 3;
 
 // objects
+// == the properties inside can't add or change type ==
 let ninja = {
   name: 'mario',
   belt: 'black',
@@ -29,6 +31,7 @@ ninja.name = 'ryu';
 // ninja.age = '30';
 // ninja.skills = ['fighting', 'sneaking']
 
+// == the value can change, not properites ==
 ninja = {
   name: 'yoshi',
   belt: 'orange',
