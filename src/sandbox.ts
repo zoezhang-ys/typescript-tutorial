@@ -8,6 +8,7 @@
 //   console.log('hello, again');
 // }
 
+// when we use ?, it means "optional variable", default value=10 (no need ?)
 const add = (a: number, b: number, c/*?*/: number | string = 10): void => {
   console.log(a + b);
   console.log(c);
