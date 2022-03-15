@@ -8,6 +8,7 @@
 //   console.log('hello, again');
 // }
 
+// the return type should be "void" - not returning value
 const add = (a: number, b: number, c/*?*/: number | string = 10): void => {
   console.log(a + b);
   console.log(c);
@@ -15,6 +16,7 @@ const add = (a: number, b: number, c/*?*/: number | string = 10): void => {
 
 add(5, 10, 'ninja');
 
+// the return typy should be "number"
 const minus = (a: number, b: number): number => {
   return a + b;
 }
