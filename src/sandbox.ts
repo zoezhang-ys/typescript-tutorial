@@ -1,6 +1,7 @@
 // let greet: Function;
 
 // example 1
+// define this greet variable with void return
 let greet: (a: string, b: string) => void;
 
 greet = (name: string, greeting: string) => {
